@@ -1,0 +1,38 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Select "Guitar (standard)"
+        2. Play the low E string
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: e.g. Pixel 7, Android 15
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: OpenTuner version
+      placeholder: e.g. 1.0.0
+  - type: textarea
+    id: recording
+    attributes:
+      label: Recording (detection problems)
+      description: For wrong notes or unstable readings, attach a few seconds of audio of the string you were tuning.

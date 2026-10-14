@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play_a_string">Toque uma corda</string>
+    <string name="play_a_note">Toque uma nota</string>
+    <string name="frequency_target">%1$s Hz  ·  alvo %2$s Hz</string>
+    <string name="in_tune">Afinado</string>
+    <string name="too_low">Baixo: aperte a corda</string>
+    <string name="too_high">Alto: afrouxe a corda</string>
+    <string name="string_locked">Corda travada · toque de novo para o modo automático</string>
+    <string name="string_auto">Automático · toque numa corda para travar</string>
+
+    <string name="tone_play">♪ Tom</string>
+    <string name="tone_stop">■ Parar</string>
+
+    <string name="instrument">Instrumento</string>
+    <string name="settings">Ajustes</string>
+    <string name="notation">Notação: %1$s</string>
+    <string name="notation_solfege">Dó Ré Mi</string>
+    <string name="sensitivity">Sensibilidade</string>
+    <string name="sensitivity_value">Sensibilidade: %1$s</string>
+    <string name="sensitivity_high">Alta (ambiente silencioso)</string>
+    <string name="sensitivity_medium">Média</string>
+    <string name="sensitivity_low">Baixa (ambiente barulhento)</string>
+    <string name="about">Sobre</string>
+    <string name="about_text">Afinador cromático e por instrumento.\n\nLivre e de código aberto. Sem anúncios, sem rastreamento e sem acesso à internet: o app só usa o microfone, e o áudio é processado no aparelho.\n\nToque no valor de A4 para voltar a 440 Hz.\n\nCódigo-fonte e contribuições: github.com/Higor0227/OpenTuner</string>
+
+    <string name="mic_denied">Sem acesso ao microfone. Toque aqui para permitir.</string>
+    <string name="mic_unavailable">Não foi possível abrir o microfone. Feche outros apps que estejam usando o áudio.</string>
+    <string name="capture_error">Erro na captura de áudio.</string>
+
+    <string name="inst_chromatic">Cromático</string>
+    <string name="inst_guitar_standard">Violão / Guitarra (padrão)</string>
+    <string name="inst_guitar_drop_d">Violão / Guitarra (Drop D)</string>
+    <string name="inst_guitar_half_down">Violão / Guitarra (meio tom abaixo)</string>
+    <string name="inst_guitar_7">Violão 7 cordas (Dó)</string>
+    <string name="inst_bass_4">Baixo 4 cordas</string>
+    <string name="inst_bass_5">Baixo 5 cordas</string>
+    <string name="inst_violin">Violino</string>
+
+    <string-array name="solfege_names">
+        <item>Dó</item><item>Dó♯</item><item>Ré</item><item>Ré♯</item><item>Mi</item><item>Fá</item>
+        <item>Fá♯</item><item>Sol</item><item>Sol♯</item><item>Lá</item><item>Lá♯</item><item>Si</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+# build output
+build/
+*.apk
+*.dex
+
+# signing keys: never commit
+keys/
+*.pem
+*.der
+*.jks
+*.keystore
+
+# local SDK copies
+tools/*.jar
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+local.properties
+.DS_Store

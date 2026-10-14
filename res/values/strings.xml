@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">OpenTuner</string>
+
+    <!-- tuner screen -->
+    <string name="play_a_string">Play a string</string>
+    <string name="play_a_note">Play a note</string>
+    <string name="frequency_target">%1$s Hz  ·  target %2$s Hz</string>
+    <string name="in_tune">In tune</string>
+    <string name="too_low">Flat: tighten the string</string>
+    <string name="too_high">Sharp: loosen the string</string>
+    <string name="string_locked">String locked · tap again for automatic mode</string>
+    <string name="string_auto">Automatic · tap a string to lock it</string>
+
+    <!-- controls -->
+    <string name="tone_play">♪ Tone</string>
+    <string name="tone_stop">■ Stop</string>
+    <string name="a4_label">%1$s = %2$d Hz</string>
+
+    <!-- dialogs -->
+    <string name="instrument">Instrument</string>
+    <string name="settings">Settings</string>
+    <string name="notation">Notation: %1$s</string>
+    <string name="notation_letters">C D E</string>
+    <string name="notation_solfege">Do Re Mi</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="sensitivity_value">Sensitivity: %1$s</string>
+    <string name="sensitivity_high">High (quiet room)</string>
+    <string name="sensitivity_medium">Medium</string>
+    <string name="sensitivity_low">Low (noisy room)</string>
+    <string name="about">About</string>
+    <string name="about_text">Chromatic and instrument tuner.\n\nFree and open source. No ads, no tracking and no internet access: the app only uses the microphone, and audio is processed on the device.\n\nTap the A4 value to reset it to 440 Hz.\n\nSource code and contributions: github.com/Higor0227/OpenTuner</string>
+    <string name="ok">OK</string>
+
+    <!-- errors -->
+    <string name="mic_denied">No microphone access. Tap here to allow it.</string>
+    <string name="mic_unavailable">Could not open the microphone. Close other apps that may be using audio.</string>
+    <string name="capture_error">Audio capture error.</string>
+
+    <!-- instruments -->
+    <string name="inst_chromatic">Chromatic</string>
+    <string name="inst_guitar_standard">Guitar (standard)</string>
+    <string name="inst_guitar_drop_d">Guitar (Drop D)</string>
+    <string name="inst_guitar_half_down">Guitar (half step down)</string>
+    <string name="inst_guitar_7">7-string guitar (low C)</string>
+    <string name="inst_bass_4">Bass (4 strings)</string>
+    <string name="inst_bass_5">Bass (5 strings)</string>
+    <string name="inst_cavaquinho">Cavaquinho (DGBD)</string>
+    <string name="inst_ukulele">Ukulele (GCEA)</string>
+    <string name="inst_violin">Violin</string>
+
+    <string-array name="solfege_names">
+        <item>Do</item><item>Do♯</item><item>Re</item><item>Re♯</item><item>Mi</item><item>Fa</item>
+        <item>Fa♯</item><item>Sol</item><item>Sol♯</item><item>La</item><item>La♯</item><item>Si</item>
+    </string-array>
+</resources>
